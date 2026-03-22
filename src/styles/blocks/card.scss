@@ -4,10 +4,10 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  width: 200px;
+  width: $card-width;
   border-radius: 5px;
   border: 1px solid $color-white;
-  padding: 16px;
+  padding: $main-retreat;
   transition: transform 0.3s;
 
   &:hover {
@@ -18,13 +18,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 16px;
+    margin-bottom: $main-retreat;
   }
 
   &__image {
     width: 100%;
     display: block;
-    margin-bottom: 16px;
+    margin-bottom: $main-retreat;
   }
 
   &__title {
@@ -47,7 +47,7 @@
     line-height: 14px;
     color: $color-secondary;
     letter-spacing: 0;
-    margin-bottom: 16px;
+    margin-bottom: $main-retreat;
   }
 
   &__reviews {
@@ -62,7 +62,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 16px;
+    margin-bottom: $main-retreat;
   }
 
   &__price-label {
@@ -85,7 +85,7 @@
     display: block;
     text-align: center;
     padding: 12px;
-    margin-top: 16px;
+    margin-top: $main-retreat;
 
     background-color: $color-button;
     color: $color-white;
