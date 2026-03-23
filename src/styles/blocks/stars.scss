@@ -1,9 +1,11 @@
+@use '../variables' as *;
+
 .stars {
   display: flex;
   gap: $star-gap;
 
   &__star {
-    width: 16px;
+    width: $star-size;
     height: $star-size;
     background-image: url('../images/star.svg');
     background-repeat: no-repeat;

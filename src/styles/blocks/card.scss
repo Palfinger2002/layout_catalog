@@ -5,7 +5,7 @@
   flex-direction: column;
   box-sizing: border-box;
   width: $card-width;
-  border-radius: 5px;
+  border-radius: $card-radius;
   border: 1px solid $color-white;
   padding: $main-retreat;
   transition: transform 0.3s;
@@ -28,12 +28,12 @@
   }
 
   &__title {
-    font-weight: 500;
-    font-size: 12px;
+    font-weight: $fw-average;
+    font-size: $fs-small;
     color: $color-main;
-    line-height: 18px;
+    line-height: $line-height1;
     letter-spacing: 0;
-    margin-bottom: 4px;
+    margin-bottom: $outer-margin;
     transition: color 0.3s;
   }
 
@@ -42,18 +42,18 @@
   }
 
   &__code {
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 14px;
+    font-weight: $fw-small;
+    font-size: $fs-extra-small;
+    line-height: $line-height2;
     color: $color-secondary;
     letter-spacing: 0;
     margin-bottom: $main-retreat;
   }
 
   &__reviews {
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 14px;
+    font-weight: $fw-small;
+    font-size: $fs-extra-small;
+    line-height: $line-height2;
     color: $color-main;
     letter-spacing: 0;
   }
@@ -66,17 +66,17 @@
   }
 
   &__price-label {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
+    font-weight: $fw-small;
+    font-size: $fs-small;
+    line-height: $line-height1;
     color: $color-secondary;
     letter-spacing: 0;
   }
 
   &__price-value {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18px;
+    font-weight: $fw-big;
+    font-size: $fs-big;
+    line-height: $line-height1;
     color: $color-main;
     letter-spacing: 0;
   }
@@ -84,22 +84,22 @@
   &__buy {
     display: block;
     text-align: center;
-    padding: 12px;
+    padding: $inner-padding;
     margin-top: $main-retreat;
 
     background-color: $color-button;
     color: $color-white;
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 14px;
+    font-weight: $fw-big;
+    font-size: $fs-average;
+    line-height: $line-height2;
     letter-spacing: 0;
 
     text-decoration: none;
     text-transform: uppercase;
 
     border: 1px solid $color-button;
-    border-radius: 5px;
+    border-radius: $card-radius;
 
     transition: all 0.3s;
     cursor: pointer;
